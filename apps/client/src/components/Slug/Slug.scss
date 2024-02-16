@@ -1,0 +1,22 @@
+.slug {
+  height: 25rem;
+  background-image: url('/assets/road-car.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 25% 80%;
+  display: flex;
+  justify-content: center;
+  .text {
+    align-self: center;
+    background-color: rgba(204, 200, 200, 0.817);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    padding: 1rem;
+    h1 {
+      font-weight: 900;
+      font-size: 70pt;
+      color: rgb(0, 0, 0);
+    }
+  }
+}
